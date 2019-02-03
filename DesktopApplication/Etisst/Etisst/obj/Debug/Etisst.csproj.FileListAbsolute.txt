@@ -1,0 +1,13 @@
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\Etisst.exe.config
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\Etisst.exe
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\Etisst.pdb
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\MetroFramework.Design.dll
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\MetroFramework.dll
+C:\Users\Craciun\source\repos\Etisst\Etisst\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.csprojAssemblyReference.cache
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.Properties.Resources.resources
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.csproj.GenerateResource.cache
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.csproj.CoreCompileInputs.cache
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.csproj.CopyComplete
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.exe
+C:\Users\Craciun\source\repos\Etisst\Etisst\obj\Debug\Etisst.pdb
