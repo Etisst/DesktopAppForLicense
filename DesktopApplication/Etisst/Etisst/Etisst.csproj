@@ -138,16 +138,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UIForms\Form1.cs">
+    <Compile Include="Forms\frmStartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIForms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\frmStartForm.Designer.cs">
+      <DependentUpon>frmStartForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UIForms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmStartForm.resx">
+      <DependentUpon>frmStartForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -174,7 +174,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Libraries\DevExpress.BonusSkins.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.Data.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.Images.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.Office.v17.2.Core.dll" />
+    <Content Include="Libraries\DevExpress.Pdf.v17.2.Core.dll" />
+    <Content Include="Libraries\DevExpress.Printing.v17.2.Core.dll" />
+    <Content Include="Libraries\DevExpress.RichEdit.v17.2.Core.dll" />
+    <Content Include="Libraries\DevExpress.RichEdit.v17.2.Export.dll" />
+    <Content Include="Libraries\DevExpress.Sparkline.v17.2.Core.dll" />
+    <Content Include="Libraries\DevExpress.Utils.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.Xpo.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraBars.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraEditors.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraGrid.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraLayout.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraNavBar.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraPrinting.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraRichEdit.v17.2.dll" />
+    <Content Include="Libraries\DevExpress.XtraTreeList.v17.2.dll" />
+    <Content Include="Libraries\NPOI.dll" />
     <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
