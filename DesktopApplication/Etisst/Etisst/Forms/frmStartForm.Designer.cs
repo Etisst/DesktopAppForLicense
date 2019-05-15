@@ -1,6 +1,6 @@
 ﻿namespace Etisst
 {
-    partial class Form1
+    partial class frmStartForm
     {
         /// <summary>
         /// Required designer variable.
@@ -111,6 +111,7 @@
             this.mtLookups.Text = "Lookups";
             this.mtLookups.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mtLookups.UseSelectable = true;
+            this.mtLookups.Click += new System.EventHandler(this.mtLookups_Click);
             // 
             // mtHome
             // 
@@ -128,14 +129,16 @@
             this.mtHome.UseSelectable = true;
             this.mtHome.Click += new System.EventHandler(this.mtHome_Click);
             // 
-            // Form1
+            // frmStartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.mpMainMenu);
-            this.Name = "Form1";
+            this.IsMdiContainer = true;
+            this.Name = "frmStartForm";
             this.Padding = new System.Windows.Forms.Padding(0, 60, 0, 0);
+            this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mpMainMenu.ResumeLayout(false);
             this.mpMainMenu.PerformLayout();
@@ -150,6 +153,8 @@
         private MetroFramework.Controls.MetroTile mtCustomers;
         private MetroFramework.Controls.MetroTile mtLookups;
         private MetroFramework.Controls.MetroTile mtHome;
+        private DevExpress.XtraEditors.LabelControl lblQuotedBy;
+
     }
 }
 

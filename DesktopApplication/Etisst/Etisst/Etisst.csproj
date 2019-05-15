@@ -138,6 +138,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmLookups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLookups.Designer.cs">
+      <DependentUpon>frmLookups.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmStartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmLookups.resx">
+      <DependentUpon>frmLookups.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmStartForm.resx">
       <DependentUpon>frmStartForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +207,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Etisst.Desktop.BusinessLogic.UIConnector\Etisst.Desktop.BusinessLogic.UIConnector.csproj">
+      <Project>{BDED2EBC-0627-43A3-BA87-BEB6C99177A6}</Project>
+      <Name>Etisst.Desktop.BusinessLogic.UIConnector</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
