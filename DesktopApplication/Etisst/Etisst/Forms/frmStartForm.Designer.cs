@@ -50,7 +50,7 @@
             this.mpMainMenu.HorizontalScrollbarSize = 10;
             this.mpMainMenu.Location = new System.Drawing.Point(0, 60);
             this.mpMainMenu.Name = "mpMainMenu";
-            this.mpMainMenu.Size = new System.Drawing.Size(800, 44);
+            this.mpMainMenu.Size = new System.Drawing.Size(800, 42);
             this.mpMainMenu.TabIndex = 9;
             this.mpMainMenu.VerticalScrollbarBarColor = true;
             this.mpMainMenu.VerticalScrollbarHighlightOnWheel = false;
@@ -69,6 +69,7 @@
             this.mtOrders.Text = "Orders";
             this.mtOrders.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mtOrders.UseSelectable = true;
+            this.mtOrders.Click += new System.EventHandler(this.mtOrders_Click);
             // 
             // mtProducts
             // 
@@ -83,6 +84,7 @@
             this.mtProducts.Text = "Products";
             this.mtProducts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mtProducts.UseSelectable = true;
+            this.mtProducts.Click += new System.EventHandler(this.mtProducts_Click);
             // 
             // mtCustomers
             // 
@@ -97,6 +99,7 @@
             this.mtCustomers.Text = "Customers";
             this.mtCustomers.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mtCustomers.UseSelectable = true;
+            this.mtCustomers.Click += new System.EventHandler(this.mtCustomers_Click);
             // 
             // mtLookups
             // 
@@ -154,7 +157,6 @@
         private MetroFramework.Controls.MetroTile mtLookups;
         private MetroFramework.Controls.MetroTile mtHome;
         private DevExpress.XtraEditors.LabelControl lblQuotedBy;
-
     }
 }
 

@@ -138,11 +138,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCustomer.Designer.cs">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmLookups.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmLookups.Designer.cs">
       <DependentUpon>frmLookups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmStartForm.cs">
       <SubType>Form</SubType>
@@ -154,6 +172,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmLookups.resx">
       <DependentUpon>frmLookups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmStartForm.resx">
       <DependentUpon>frmStartForm.cs</DependentUpon>

@@ -32,12 +32,18 @@
             // 
             // frmLookups
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Movable = false;
             this.Name = "frmLookups";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
+            this.Resizable = false;
             this.Text = "frmLookups";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.Empty;
+            this.Load += new System.EventHandler(this.frmLookups_Load);
             this.ResumeLayout(false);
 
         }

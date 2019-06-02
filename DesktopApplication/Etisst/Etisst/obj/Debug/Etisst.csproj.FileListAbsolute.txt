@@ -184,7 +184,6 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\De
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.csprojAssemblyReference.cache
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.exe.config
-C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.Form1.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.Properties.Resources.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.csproj.GenerateResource.cache
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.exe.licenses
@@ -362,3 +361,9 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe.config
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmLookups.resources
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmStartForm.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.pdb
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe.config
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmLookups.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmStartForm.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrders.resources

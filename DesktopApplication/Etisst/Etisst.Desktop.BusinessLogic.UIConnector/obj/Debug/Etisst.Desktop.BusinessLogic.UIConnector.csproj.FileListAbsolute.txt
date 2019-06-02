@@ -7,3 +7,12 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.csproj.CoreCompileInputs.cache
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.pdb
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe.config
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\bin\Debug\Etisst.Desktop.BusinessLogic.UIConnector.pdb
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.csprojAssemblyReference.cache
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.Properties.Resources.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.csproj.GenerateResource.cache
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.csproj.CoreCompileInputs.cache
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.exe
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.BusinessLogic.UIConnector\obj\Debug\Etisst.Desktop.BusinessLogic.UIConnector.pdb
