@@ -1,0 +1,9 @@
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.DataAccess.exe.config
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.DataAccess.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.DataAccess.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.csprojAssemblyReference.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.Properties.Resources.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.csproj.GenerateResource.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.pdb

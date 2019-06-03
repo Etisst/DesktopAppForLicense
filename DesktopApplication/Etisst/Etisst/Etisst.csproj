@@ -138,6 +138,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmConnect.Designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLookups.resx">
       <DependentUpon>frmLookups.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +237,7 @@
     <Content Include="Libraries\DevExpress.XtraTreeList.v17.2.dll" />
     <Content Include="Libraries\NPOI.dll" />
     <Content Include="MetroFramework.txt" />
+    <Content Include="Resources\Hopstarter-Gloss-Mac-World-Connect.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utilities\" />
@@ -233,6 +246,18 @@
     <ProjectReference Include="..\Etisst.Desktop.BusinessLogic.UIConnector\Etisst.Desktop.BusinessLogic.UIConnector.csproj">
       <Project>{BDED2EBC-0627-43A3-BA87-BEB6C99177A6}</Project>
       <Name>Etisst.Desktop.BusinessLogic.UIConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Etisst.Desktop.BussinessLogic.Core\Etisst.Desktop.BussinessLogic.Core.csproj">
+      <Project>{0283f867-e076-4f00-8f00-61810922178b}</Project>
+      <Name>Etisst.Desktop.BussinessLogic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Etisst.Desktop.Common\Etisst.Desktop.Common.csproj">
+      <Project>{9303d91c-bf12-4f76-9c44-a5bf507ae001}</Project>
+      <Name>Etisst.Desktop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Etisst.Desktop.DataAccess\Etisst.Desktop.DataAccess.csproj">
+      <Project>{58ebe359-a2c1-4cb8-93ba-145ae4afeb58}</Project>
+      <Name>Etisst.Desktop.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

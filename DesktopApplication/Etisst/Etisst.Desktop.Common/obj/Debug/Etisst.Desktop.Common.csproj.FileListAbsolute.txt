@@ -1,0 +1,9 @@
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\Etisst.Desktop.Common.exe.config
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\Etisst.Desktop.Common.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\Etisst.Desktop.Common.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csprojAssemblyReference.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.Properties.Resources.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csproj.GenerateResource.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csproj.CoreCompileInputs.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.pdb

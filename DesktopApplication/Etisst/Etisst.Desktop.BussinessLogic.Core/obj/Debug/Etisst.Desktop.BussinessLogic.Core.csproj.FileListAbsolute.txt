@@ -1,0 +1,9 @@
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.BussinessLogic.Core.exe.config
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.BussinessLogic.Core.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.BussinessLogic.Core.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.csprojAssemblyReference.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.Properties.Resources.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.csproj.GenerateResource.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.csproj.CoreCompileInputs.cache
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.pdb

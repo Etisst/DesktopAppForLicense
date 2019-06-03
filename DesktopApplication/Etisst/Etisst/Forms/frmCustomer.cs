@@ -16,5 +16,10 @@ namespace Etisst
         {
             InitializeComponent();
         }
+
+        private void frmCustomer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
