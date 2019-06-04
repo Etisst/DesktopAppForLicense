@@ -1,16 +1,21 @@
 ﻿using Etisst.Desktop.BusinessLogic.UIConnector;
+using Etisst.Desktop.Common;
 using System;
 using System.Windows.Forms;
+using WooCommerceNET;
+using WooCommerceNET.WooCommerce.v3;
+using WooCommerceNET.WooCommerce.v3.Extension;
+using AppContext = Etisst.Desktop.Common.AppContext;
 
 namespace Etisst
 {
     public partial class frmStartForm : MetroFramework.Forms.MetroForm, IStartFormView
     {
-        
+        WCObject _wc;
         public frmStartForm()
         {
             InitializeComponent();
-            
+            _wc = AppContext.wc;
         }
 
         public void AttachPresenter(StartFormPresenter presenter)
@@ -46,7 +51,11 @@ namespace Etisst
         private void mtProducts_Click(object sender, EventArgs e)
         {
             this.mpMainMenu.AutoSize = false;
-            ShowChildForm(sender, new ShowTabFormEventArgs(new frmProducts()));
+            frmProducts childForm = new frmProducts();
+           // childForm.Parent = this;
+            ProductListPresenter presenter = new ProductListPresenter(childForm);
+            childForm.AttachPresenter(presenter);
+            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
         private void mtOrders_Click(object sender, EventArgs e)
@@ -78,8 +87,8 @@ namespace Etisst
                 this.MetFrm = metFrm;
             }
         }
-        #endregion
 
+        #endregion
 
     }
 }

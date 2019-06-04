@@ -1,6 +1,6 @@
-﻿
-using System;
-using System.Collections.Generic;
+﻿using WooCommerceNET.WooCommerce.v3;
+using WooCommerceNET.WooCommerce.v3.Extension;
+using WooCommerceNET;
 
 namespace Etisst.Desktop.Common
 {
@@ -14,5 +14,9 @@ namespace Etisst.Desktop.Common
         public static string SecretKey;
         //
         public static string URL;
+        //
+        public static WCObject wc;
+        //
+        public static RestAPI rest;
     }
 }
