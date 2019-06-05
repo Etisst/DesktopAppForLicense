@@ -10,6 +10,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
     public interface IProductListView
     {
         void AttachPresenter(ProductListPresenter presenter);
-        void SetGrid(List<Product> products);
+        List<Product> Products { set; }
+        Product SelectedProduct { get; }
     }
 }

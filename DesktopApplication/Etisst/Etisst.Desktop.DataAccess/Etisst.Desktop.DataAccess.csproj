@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductDAL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -79,6 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DbConnector\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Etisst.Desktop.Common\Etisst.Desktop.Common.csproj">
+      <Project>{9303d91c-bf12-4f76-9c44-a5bf507ae001}</Project>
+      <Name>Etisst.Desktop.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

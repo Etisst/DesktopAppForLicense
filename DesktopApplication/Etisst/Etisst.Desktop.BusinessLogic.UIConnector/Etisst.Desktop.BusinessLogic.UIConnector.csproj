@@ -52,10 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presenters\ProductDetailsPresenter.cs" />
     <Compile Include="Presenters\ProductListPresenter.cs" />
     <Compile Include="Presenters\StartFormPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewInterfaces\IProductDetailsView.cs" />
     <Compile Include="ViewInterfaces\IProductListView.cs" />
     <Compile Include="ViewInterfaces\IStartFormView.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

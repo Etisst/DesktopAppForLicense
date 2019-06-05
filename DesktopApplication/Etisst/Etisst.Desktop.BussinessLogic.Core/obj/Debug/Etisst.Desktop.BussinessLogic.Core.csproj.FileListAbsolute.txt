@@ -108,3 +108,9 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Newtonsoft.Json.xml
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.exe.config
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\obj\Debug\Etisst.Desktop.BussinessLogic.Core.csproj.CopyComplete
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.DataAccess.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.Common.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.DataAccess.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.DataAccess.exe.config
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.Common.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.BussinessLogic.Core\bin\Debug\Etisst.Desktop.Common.exe.config

@@ -180,6 +180,12 @@
     <Compile Include="Forms\frmStartForm.Designer.cs">
       <DependentUpon>frmStartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductDetails.Designer.cs">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmConnect.resx">
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmStartForm.resx">
       <DependentUpon>frmStartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductDetails.resx">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -247,8 +256,11 @@
     <Content Include="Libraries\DevExpress.XtraTreeList.v17.2.dll" />
     <Content Include="Libraries\NPOI.dll" />
     <Content Include="MetroFramework.txt" />
+    <Content Include="Resources\AddEntity.ico" />
+    <Content Include="Resources\DeleteEntity.ico" />
     <Content Include="Resources\Hopstarter-Gloss-Mac-World-Connect.ico" />
     <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\UpdateEntity.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utilities\" />

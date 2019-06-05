@@ -108,3 +108,6 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Newtonsoft.Json.xml
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.exe.config
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\obj\Debug\Etisst.Desktop.DataAccess.csproj.CopyComplete
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.Common.exe
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.Common.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst.Desktop.DataAccess\bin\Debug\Etisst.Desktop.Common.exe.config

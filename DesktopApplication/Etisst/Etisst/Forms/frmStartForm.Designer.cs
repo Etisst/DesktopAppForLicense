@@ -45,7 +45,7 @@
             this.mtHome.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mtHome.Location = new System.Drawing.Point(0, 0);
             this.mtHome.Name = "mtHome";
-            this.mtHome.Size = new System.Drawing.Size(800, 44);
+            this.mtHome.Size = new System.Drawing.Size(827, 44);
             this.mtHome.Style = MetroFramework.MetroColorStyle.Teal;
             this.mtHome.TabIndex = 9;
             this.mtHome.Text = "Home";
@@ -60,7 +60,7 @@
             this.mtLookups.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mtLookups.Location = new System.Drawing.Point(0, 44);
             this.mtLookups.Name = "mtLookups";
-            this.mtLookups.Size = new System.Drawing.Size(800, 41);
+            this.mtLookups.Size = new System.Drawing.Size(827, 41);
             this.mtLookups.Style = MetroFramework.MetroColorStyle.Teal;
             this.mtLookups.TabIndex = 10;
             this.mtLookups.Text = "Lookups";
@@ -75,7 +75,7 @@
             this.mtCustomers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mtCustomers.Location = new System.Drawing.Point(0, 85);
             this.mtCustomers.Name = "mtCustomers";
-            this.mtCustomers.Size = new System.Drawing.Size(800, 41);
+            this.mtCustomers.Size = new System.Drawing.Size(827, 41);
             this.mtCustomers.Style = MetroFramework.MetroColorStyle.Teal;
             this.mtCustomers.TabIndex = 11;
             this.mtCustomers.Text = "Customers";
@@ -90,7 +90,7 @@
             this.mtProducts.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mtProducts.Location = new System.Drawing.Point(0, 126);
             this.mtProducts.Name = "mtProducts";
-            this.mtProducts.Size = new System.Drawing.Size(800, 41);
+            this.mtProducts.Size = new System.Drawing.Size(827, 41);
             this.mtProducts.Style = MetroFramework.MetroColorStyle.Teal;
             this.mtProducts.TabIndex = 12;
             this.mtProducts.Text = "Products";
@@ -105,7 +105,7 @@
             this.mtOrders.ForeColor = System.Drawing.SystemColors.ControlText;
             this.mtOrders.Location = new System.Drawing.Point(0, 167);
             this.mtOrders.Name = "mtOrders";
-            this.mtOrders.Size = new System.Drawing.Size(800, 41);
+            this.mtOrders.Size = new System.Drawing.Size(827, 41);
             this.mtOrders.Style = MetroFramework.MetroColorStyle.Teal;
             this.mtOrders.TabIndex = 13;
             this.mtOrders.Text = "Orders";
@@ -126,7 +126,7 @@
             this.mpMainMenu.HorizontalScrollbarSize = 10;
             this.mpMainMenu.Location = new System.Drawing.Point(0, 60);
             this.mpMainMenu.Name = "mpMainMenu";
-            this.mpMainMenu.Size = new System.Drawing.Size(800, 42);
+            this.mpMainMenu.Size = new System.Drawing.Size(827, 42);
             this.mpMainMenu.TabIndex = 9;
             this.mpMainMenu.VerticalScrollbarBarColor = true;
             this.mpMainMenu.VerticalScrollbarHighlightOnWheel = false;
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(827, 467);
             this.Controls.Add(this.mpMainMenu);
             this.IsMdiContainer = true;
             this.Name = "frmStartForm";

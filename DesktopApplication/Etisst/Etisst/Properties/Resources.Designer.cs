@@ -63,6 +63,26 @@ namespace Etisst.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AddEntity {
+            get {
+                object obj = ResourceManager.GetObject("AddEntity", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DeleteEntity {
+            get {
+                object obj = ResourceManager.GetObject("DeleteEntity", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hopstarter_Gloss_Mac_World_Connect {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Gloss-Mac-World-Connect", resourceCulture);
@@ -76,6 +96,16 @@ namespace Etisst.Properties {
         internal static System.Drawing.Bitmap loading {
             get {
                 object obj = ResourceManager.GetObject("loading", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UpdateEntity {
+            get {
+                object obj = ResourceManager.GetObject("UpdateEntity", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
