@@ -397,4 +397,4 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\WooCommerce.NET.dll
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\Newtonsoft.Json.xml
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProducts.resources
-C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.Forms.ProductDetails.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductDetails.resources

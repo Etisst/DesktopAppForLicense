@@ -15,5 +15,12 @@ namespace Etisst.Desktop.BussinessLogic.Core
             ProductDAL pDAL = new ProductDAL();
             return await pDAL.GetAllProductsAsync();
         }
+
+        public async Task DeleteProductByIdAsync(int? id)
+        {
+            ProductDAL pDAL = new ProductDAL();
+            int actualId = id ?? default(int);
+            await pDAL.DeleteProductByIdAsync(actualId);
+        }
     }
 }

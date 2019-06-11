@@ -9,7 +9,7 @@ using AppContext = Etisst.Desktop.Common.AppContext;
 
 namespace Etisst
 {
-    public partial class frmStartForm : MetroFramework.Forms.MetroForm, IStartFormView
+    public partial class frmStartForm : frmBaseForm, IStartFormView
     {
         WCObject _wc;
         public frmStartForm()
@@ -55,6 +55,7 @@ namespace Etisst
            // childForm.Parent = this;
             ProductListPresenter presenter = new ProductListPresenter(childForm);
             childForm.AttachPresenter(presenter);
+            childForm.MdiParent = this;
             ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
@@ -65,30 +66,7 @@ namespace Etisst
         }
         #endregion
 
-        #region delegates
-        private void ShowChildForm(object sender, ShowTabFormEventArgs e)
-        {
-            e.MetFrm.MdiParent = this;
-            e.MetFrm.Dock = DockStyle.Fill;
-            e.MetFrm.MaximizeBox = false;
-            e.MetFrm.MinimizeBox = false;
-            e.MetFrm.ShowInTaskbar = false;
-            e.MetFrm.Show();
-        }
 
-        public delegate void ShowTabFormEventHandler(object sender, ShowTabFormEventArgs e);
-
-        public class ShowTabFormEventArgs : EventArgs
-        {
-            public MetroFramework.Forms.MetroForm MetFrm { get; set; }
-
-            public ShowTabFormEventArgs(MetroFramework.Forms.MetroForm metFrm)
-            {
-                this.MetFrm = metFrm;
-            }
-        }
-
-        #endregion
 
     }
 }

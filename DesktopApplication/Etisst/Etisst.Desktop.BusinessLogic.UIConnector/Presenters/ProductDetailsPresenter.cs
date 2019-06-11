@@ -8,5 +8,10 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
 {
     public class ProductDetailsPresenter
     {
+        private IProductDetailsView _view;
+        public ProductDetailsPresenter(IProductDetailsView view)
+        {
+            this._view = view;
+        }
     }
 }

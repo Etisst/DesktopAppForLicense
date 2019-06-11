@@ -144,6 +144,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\frmConnect.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,11 +183,11 @@
     <Compile Include="Forms\frmStartForm.Designer.cs">
       <DependentUpon>frmStartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ProductDetails.cs">
+    <Compile Include="Forms\frmProductDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ProductDetails.Designer.cs">
-      <DependentUpon>ProductDetails.cs</DependentUpon>
+    <Compile Include="Forms\frmProductDetails.Designer.cs">
+      <DependentUpon>frmProductDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -206,8 +209,8 @@
     <EmbeddedResource Include="Forms\frmStartForm.resx">
       <DependentUpon>frmStartForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ProductDetails.resx">
-      <DependentUpon>ProductDetails.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmProductDetails.resx">
+      <DependentUpon>frmProductDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -19,6 +19,11 @@ namespace Etisst.Desktop.DataAccess
         {
             return await _wc.Product.GetAll();
         }
-        
+
+        public async Task DeleteProductByIdAsync(int id)
+        {
+            await _wc.Product.Delete(id);
+        }
+
     }
 }
