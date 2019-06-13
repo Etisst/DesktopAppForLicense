@@ -20,7 +20,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
             ProductBLL productBLL = new ProductBLL();
                 _view.Products= await productBLL.GetAllProductsAsync();
         }
-        public async void DeleteProductAsync(int? id)
+        public async Task DeleteProductAsync(int? id)
         {
             ProductBLL productBLL = new ProductBLL();
             await productBLL.DeleteProductByIdAsync(id);

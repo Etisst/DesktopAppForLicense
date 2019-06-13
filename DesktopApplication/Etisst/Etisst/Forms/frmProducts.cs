@@ -93,6 +93,8 @@ namespace Etisst
 
                 gridProducts.ReadOnly = true;
                 LoadingGIF.Visible = false;
+                gridProducts.Visible = true;
+
             }
         }
 
@@ -137,14 +139,15 @@ namespace Etisst
             this.Close();
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private async void btnDelete_ClickAsync(object sender, EventArgs e)
         {
             if (_selectedProduct!= null && _selectedProduct.id > 0)
             {
                 if (MessageBox.Show(this, AppTranslations.DELETE_PRODUCT, AppTranslations.PRODUCT, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    _presenter.DeleteProductAsync(_selectedProduct.id);
-                    this.Refresh();
+
+                    await _presenter.DeleteProductAsync(_selectedProduct.id);
+                    this.RefreshForm();
                 }
             }
             else
@@ -153,13 +156,20 @@ namespace Etisst
             }
         }
 
-        #endregion
-
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            _presenter.InitAsync();
-            this.Visible = true;
+            this.RefreshForm();
         }
+
+        #endregion
+        #region Private Methods
+        private void RefreshForm()
+        {
+            gridProducts.Visible = false;
+            LoadingGIF.Visible = true;
+            _presenter.InitAsync();
+        }
+        #endregion
+
     }
 }

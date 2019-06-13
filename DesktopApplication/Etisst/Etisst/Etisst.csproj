@@ -263,6 +263,7 @@
     <Content Include="Resources\DeleteEntity.ico" />
     <Content Include="Resources\Hopstarter-Gloss-Mac-World-Connect.ico" />
     <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\Refresh.ico" />
     <Content Include="Resources\UpdateEntity.ico" />
   </ItemGroup>
   <ItemGroup>
