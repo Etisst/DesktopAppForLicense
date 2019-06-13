@@ -117,4 +117,205 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mtHome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mtHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mtHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mtHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 44</value>
+  </data>
+  <data name="mtHome.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mtHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="mtHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mtHome.Name" xml:space="preserve">
+    <value>mtHome</value>
+  </data>
+  <data name="&gt;&gt;mtHome.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtHome.Parent" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mtHome.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mtLookups.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mtLookups.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="mtLookups.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 41</value>
+  </data>
+  <data name="mtLookups.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mtLookups.Text" xml:space="preserve">
+    <value>Lookups</value>
+  </data>
+  <data name="mtLookups.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mtLookups.Name" xml:space="preserve">
+    <value>mtLookups</value>
+  </data>
+  <data name="&gt;&gt;mtLookups.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtLookups.Parent" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mtLookups.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mtCustomers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mtCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 85</value>
+  </data>
+  <data name="mtCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 41</value>
+  </data>
+  <data name="mtCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="mtCustomers.Text" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="mtCustomers.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mtCustomers.Name" xml:space="preserve">
+    <value>mtCustomers</value>
+  </data>
+  <data name="&gt;&gt;mtCustomers.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtCustomers.Parent" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mtCustomers.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mtProducts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mtProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 126</value>
+  </data>
+  <data name="mtProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 41</value>
+  </data>
+  <data name="mtProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="mtProducts.Text" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="mtProducts.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mtProducts.Name" xml:space="preserve">
+    <value>mtProducts</value>
+  </data>
+  <data name="&gt;&gt;mtProducts.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtProducts.Parent" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mtProducts.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mtOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mtOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 167</value>
+  </data>
+  <data name="mtOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 41</value>
+  </data>
+  <data name="mtOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mtOrders.Text" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="mtOrders.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;mtOrders.Name" xml:space="preserve">
+    <value>mtOrders</value>
+  </data>
+  <data name="&gt;&gt;mtOrders.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtOrders.Parent" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mtOrders.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mpMainMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mpMainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 60</value>
+  </data>
+  <data name="mpMainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 42</value>
+  </data>
+  <data name="mpMainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;mpMainMenu.Name" xml:space="preserve">
+    <value>mpMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mpMainMenu.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mpMainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mpMainMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>827, 467</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 60, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStartForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Etisst.frmBaseForm, Etisst, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

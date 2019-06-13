@@ -64,8 +64,12 @@ namespace Etisst
             this.mpMainMenu.AutoSize = false;
             ShowChildForm(sender, new ShowTabFormEventArgs(new frmOrders()));
         }
-        #endregion
 
+        private void frmStartForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+        #endregion
 
 
     }

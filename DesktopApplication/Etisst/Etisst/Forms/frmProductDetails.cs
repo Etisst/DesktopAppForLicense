@@ -1,13 +1,5 @@
 ﻿using Etisst.Desktop.BusinessLogic.UIConnector;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using WooCommerceNET.WooCommerce.v3;
 
 namespace Etisst
@@ -40,10 +32,48 @@ namespace Etisst
             _presenter = presenter;
         }
 
-        private void ProductDetails_Load(object sender, EventArgs e)
-        {
+        #endregion
 
+        #region Events
+        private void btnGeneralPanel_Click(object sender, EventArgs e)
+        {
+            this.SetHeight(ref panelGeneral);
+        }
+
+        private void btnImagesPanel_Click(object sender, EventArgs e)
+        {
+            this.SetHeight(ref panelImages);
+        }
+
+
+
+        private void frmProductDetails_Load(object sender, EventArgs e)
+        {
+            var a = Product;
         }
         #endregion
+        #region Private Methods
+        private void SetHeight(ref System.Windows.Forms.Panel panel)
+        {
+            if (panel.Height == btnGeneralPanel.Height)
+            {
+                InitializePanelsHeight();
+                while (panel.Height < 500)
+                {
+                    panel.Height += 3;
+                }
+            }
+            else
+            {
+                panel.Height = btnGeneralPanel.Height;
+            }
+        }
+        private void InitializePanelsHeight()
+        {
+            panelGeneral.Height = btnGeneralPanel.Height;
+            panelImages.Height = btnGeneralPanel.Height;
+        }
+        #endregion
+
     }
 }

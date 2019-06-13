@@ -26,7 +26,10 @@ namespace Etisst
             AppContext.wc = new WCObject(AppContext.rest);
             frmStartForm startForm = new frmStartForm();
             startForm.Show();
+            this.Enabled = false;
             this.Visible = false;
+            // TO DO: Make StartForm the main form
+
         }
 
     }
