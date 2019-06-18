@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Etisst.Desktop.BussinessLogic.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,12 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
         public ProductDetailsPresenter(IProductDetailsView view)
         {
             this._view = view;
+        }
+
+        public async Task InitAsync()
+        {
+            ProductCategoriesBLL pcBLL = new ProductCategoriesBLL();
+            _view.ProductCategories = await pcBLL.GetAllProductCategoriesAsync();
         }
     }
 }

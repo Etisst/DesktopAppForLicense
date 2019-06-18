@@ -17,6 +17,7 @@ namespace Etisst
         #region private members
         private ProductListPresenter _presenter;
         private Product _selectedProduct;
+        private List<Product> _products;
         #endregion
 
         #region Constructor
@@ -46,6 +47,7 @@ namespace Etisst
             {
                 if (value == null) return;
                 gridProducts.DataSource = value;
+                _products = value;
                 List<string> lstColumnsToBeRemoved = new List<string>()
                 {
                     "id",
@@ -118,25 +120,33 @@ namespace Etisst
         private void gridProducts_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             frmProductDetails childForm = new frmProductDetails();
-            // childForm.Parent = this;
             ProductDetailsPresenter presenter = new ProductDetailsPresenter(childForm);
             childForm.AttachPresenter(presenter);
             childForm.MdiParent = this.ParentForm;
             childForm.Product = SelectedProduct;
+            var categories = _products.Select(p => p.categories).Distinct().ToList();
+            //childForm.ProductCategories = categories;
             ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
             this.Close();
         }
 
         private void btnView_Click(object sender, EventArgs e)
         {
-            frmProductDetails childForm = new frmProductDetails();
-            // childForm.Parent = this;
-            ProductDetailsPresenter presenter = new ProductDetailsPresenter(childForm);
-            childForm.AttachPresenter(presenter);
-            childForm.MdiParent = this.ParentForm;
-            childForm.Product = SelectedProduct;
-            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
-            this.Close();
+            if (_selectedProduct != null && _selectedProduct.id > 0)
+            {
+                frmProductDetails childForm = new frmProductDetails();
+                ProductDetailsPresenter presenter = new ProductDetailsPresenter(childForm);
+                childForm.AttachPresenter(presenter);
+                childForm.MdiParent = this.ParentForm;
+                childForm.Product = SelectedProduct;
+
+                ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show(this, AppTranslations.MUST_SELECT_PRODUCT, AppTranslations.PRODUCT, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private async void btnDelete_ClickAsync(object sender, EventArgs e)
@@ -162,6 +172,7 @@ namespace Etisst
         }
 
         #endregion
+
         #region Private Methods
         private void RefreshForm()
         {

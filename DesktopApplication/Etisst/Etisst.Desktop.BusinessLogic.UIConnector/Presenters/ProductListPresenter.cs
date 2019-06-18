@@ -25,6 +25,5 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
             ProductBLL productBLL = new ProductBLL();
             await productBLL.DeleteProductByIdAsync(id);
         }
-
     }
 }

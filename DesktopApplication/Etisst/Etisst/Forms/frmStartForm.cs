@@ -1,10 +1,7 @@
 ﻿using Etisst.Desktop.BusinessLogic.UIConnector;
-using Etisst.Desktop.Common;
 using System;
 using System.Windows.Forms;
-using WooCommerceNET;
 using WooCommerceNET.WooCommerce.v3;
-using WooCommerceNET.WooCommerce.v3.Extension;
 using AppContext = Etisst.Desktop.Common.AppContext;
 
 namespace Etisst
@@ -23,8 +20,6 @@ namespace Etisst
             
         }
 
-
-
         #region Events
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -39,7 +34,12 @@ namespace Etisst
         private void mtLookups_Click(object sender, EventArgs e)
         {
             this.mpMainMenu.AutoSize = false;
-            ShowChildForm(sender, new ShowTabFormEventArgs(new frmLookups()));
+            frmLookups childForm = new frmLookups();
+            // childForm.Parent = this;
+            //ProductListPresenter presenter = new ProductListPresenter(childForm);
+            //childForm.AttachPresenter(presenter);
+            childForm.MdiParent = this;
+            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
         private void mtCustomers_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Etisst
         {
             this.mpMainMenu.AutoSize = false;
             frmProducts childForm = new frmProducts();
-           // childForm.Parent = this;
+            // childForm.Parent = this;
             ProductListPresenter presenter = new ProductListPresenter(childForm);
             childForm.AttachPresenter(presenter);
             childForm.MdiParent = this;

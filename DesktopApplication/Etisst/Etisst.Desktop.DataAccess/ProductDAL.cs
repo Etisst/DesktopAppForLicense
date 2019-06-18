@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Etisst.Desktop.Common;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using WooCommerceNET.WooCommerce.v3;
 using AppContext = Etisst.Desktop.Common.AppContext;

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using WooCommerceNET.WooCommerce.v3;
 
 namespace Etisst.Desktop.BusinessLogic.UIConnector
@@ -11,6 +7,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
     {
         int ProductId { get; }
         Product Product { get; set; }
+        List<ProductCategory> ProductCategories { set; }
         void AttachPresenter(ProductDetailsPresenter presenter);
     }
 }

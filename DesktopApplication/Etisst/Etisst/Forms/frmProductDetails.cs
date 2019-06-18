@@ -1,13 +1,15 @@
 ﻿using Etisst.Desktop.BusinessLogic.UIConnector;
+using Etisst.Desktop.Common;
+using HtmlAgilityPack;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using WooCommerceNET.WooCommerce.v3;
 
 namespace Etisst
 {
-    public partial class frmProductDetails : MetroFramework.Forms.MetroForm , IProductDetailsView
+    public partial class frmProductDetails : frmBaseForm , IProductDetailsView
     {
-
-
         #region private members
         private ProductDetailsPresenter _presenter;
         #endregion
@@ -21,17 +23,77 @@ namespace Etisst
 
         #region IProductDetailsViewMembers
         public int ProductId { get; set; }
+
+        public List<ProductCategory> ProductCategories
+        {
+            set
+            {
+                if(value!=null)
+                {
+                    foreach(ProductCategory productCategory in value)
+                    {
+                        cblCategories.Items.Add((object)productCategory.name);
+                    }
+
+                    foreach (ProductCategoryLine categoryLine in _product.categories)
+                    {
+                        var index = cblCategories.Items.IndexOf((object)categoryLine.name);
+                        cblCategories.SetItemChecked(index, true);
+                    }
+                }
+            }
+        }
+        
+        private Product _product;
         public Product Product
         {
-            get;
-            set;
+            get
+            {
+                return _product;
+            }
+            set
+            {
+                _product = value;
+                if (_product.images.Count > 0)
+                {
+                    if (_product.images[0] != null)
+                        pictureBox1.LoadAsync(_product.images[0].src);
+                    if (_product.images[1] != null)
+                        pictureBox2.LoadAsync(_product.images[1].src);
+                    if (_product.images[2] != null)
+                        pictureBox3.LoadAsync(_product.images[2].src);
+                }
+                mtbName.Text = _product.name;
+                rtbShortDescriptionHTML.Text = _product.short_description;
+                mtbSKU.Text = _product.sku;
+                //_product.regular_price;
+                //_product.sale_price;
+                mtbStatus.Text = _product.status;
+                mtbURL.Text = _product.permalink;
+                rtbDescriptionHTML.Text = _product.description;
+                mdtDateCreated.Value = _product.date_created ?? DateTime.Now;
+                mdtDateModified.Value = _product.date_modified ?? DateTime.Now;
+                wbShortDescription.DocumentText = string.Format("{0}{1}", AppTranslations.PRODUCT_SHORT_DESCRIPTION , _product.short_description);
+                wbDescription.DocumentText = string.Format("{0}{1}", AppTranslations.PRODUCT_DESCRIPTION , _product.description);
+                nActualPrice.Value = _product.price ?? 0;
+                
+                HtmlDocument doc = new HtmlDocument();
+                doc.LoadHtml(_product.price_html);
+
+                var initialPrice = doc.DocumentNode.SelectNodes("//span[@class='woocommerce-Price-amount amount']")//this xpath selects all span tag having its class as hidden first
+                                  .Select(p => p.InnerText)
+                                  .ToList();
+                initialPrice[0] = initialPrice[0].Substring(0, initialPrice[0].IndexOf('&'));
+                initialPrice[0] = initialPrice[0].Replace(',', '.');
+                nInitialPrice.Value = decimal.Parse(initialPrice[0]);
+               
+            }
         }
 
         public void AttachPresenter(ProductDetailsPresenter presenter)
         {
             _presenter = presenter;
         }
-
         #endregion
 
         #region Events
@@ -45,35 +107,42 @@ namespace Etisst
             this.SetHeight(ref panelImages);
         }
 
-
-
-        private void frmProductDetails_Load(object sender, EventArgs e)
+        private void btnAttributesPanel_Click(object sender, EventArgs e)
         {
-            var a = Product;
+            this.SetHeight(ref panelAttributes);
+        }
+
+        private async void frmProductDetails_LoadAsync(object sender, EventArgs e)
+        {
+            await _presenter.InitAsync();
         }
         #endregion
+
         #region Private Methods
-        private void SetHeight(ref System.Windows.Forms.Panel panel)
+        private bool SetHeight(ref System.Windows.Forms.Panel panel)
         {
             if (panel.Height == btnGeneralPanel.Height)
             {
                 InitializePanelsHeight();
                 while (panel.Height < 500)
                 {
-                    panel.Height += 3;
+                    panel.Height += 4;
                 }
+                return true;
             }
             else
             {
                 panel.Height = btnGeneralPanel.Height;
+                return false;
             }
         }
         private void InitializePanelsHeight()
         {
             panelGeneral.Height = btnGeneralPanel.Height;
             panelImages.Height = btnGeneralPanel.Height;
+            panelAttributes.Height = btnAttributesPanel.Height;
         }
-        #endregion
 
+        #endregion
     }
 }

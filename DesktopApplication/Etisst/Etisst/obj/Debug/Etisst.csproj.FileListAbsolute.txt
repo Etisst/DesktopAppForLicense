@@ -414,3 +414,8 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\De
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomer.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProducts.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductDetails.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategories.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategoryDetails.resources

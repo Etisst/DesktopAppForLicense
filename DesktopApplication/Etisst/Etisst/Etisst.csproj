@@ -39,6 +39,9 @@
     <Reference Include="DevExpress.XtraEditors.v17.2">
       <HintPath>..\..\..\..\dev\DevExpress.XtraEditors.v17.2.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.7.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.7\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
@@ -171,6 +174,18 @@
     <Compile Include="Forms\frmOrders.Designer.cs">
       <DependentUpon>frmOrders.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmProductCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProductCategories.Designer.cs">
+      <DependentUpon>frmProductCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProductCategoryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProductCategoryDetails.Designer.cs">
+      <DependentUpon>frmProductCategoryDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmProducts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +217,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmOrders.resx">
       <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProductCategories.resx">
+      <DependentUpon>frmProductCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProductCategoryDetails.resx">
+      <DependentUpon>frmProductCategoryDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmProducts.resx">
       <DependentUpon>frmProducts.cs</DependentUpon>
@@ -264,6 +285,7 @@
     <Content Include="Resources\Hopstarter-Gloss-Mac-World-Connect.ico" />
     <Content Include="Resources\loading.gif" />
     <Content Include="Resources\Refresh.ico" />
+    <Content Include="Resources\SaveEntity.ico" />
     <Content Include="Resources\UpdateEntity.ico" />
   </ItemGroup>
   <ItemGroup>
