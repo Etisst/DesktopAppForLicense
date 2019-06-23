@@ -1,7 +1,5 @@
 ﻿using Etisst.Desktop.BussinessLogic.Core;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using WooCommerceNET.WooCommerce.v3;
 
 namespace Etisst.Desktop.BusinessLogic.UIConnector
 {

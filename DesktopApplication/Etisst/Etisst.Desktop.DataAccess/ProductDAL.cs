@@ -12,9 +12,11 @@ namespace Etisst.Desktop.DataAccess
         {
             _wc = AppContext.wc;
         }
-        public async Task<List<Product>> GetAllProductsAsync()
+        public async Task<List<Product>> GetAllProductsAsync(Dictionary<string, string> dic)
         {
-            return await _wc.Product.GetAll();
+            int pageNumber = 1;
+            dic.Add("page", pageNumber.ToString());
+            return await _wc.Product.GetAll(dic);
         }
 
         public async Task DeleteProductByIdAsync(int id)

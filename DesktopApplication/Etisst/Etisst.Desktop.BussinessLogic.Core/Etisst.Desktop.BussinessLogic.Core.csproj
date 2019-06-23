@@ -52,8 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLLs\CustomerBLL.cs" />
+    <Compile Include="BLLs\OrderBLL.cs" />
     <Compile Include="BLLs\ProductBLL.cs" />
     <Compile Include="BLLs\ProductCategoriesBLL.cs" />
+    <Compile Include="BLLs\ProductTagsBLL.cs" />
+    <Compile Include="BLLs\ReportsBLL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -84,6 +88,10 @@
     <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Etisst.Desktop.Common\Etisst.Desktop.Common.csproj">
+      <Project>{9303D91C-BF12-4F76-9C44-A5BF507AE001}</Project>
+      <Name>Etisst.Desktop.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Etisst.Desktop.DataAccess\Etisst.Desktop.DataAccess.csproj">
       <Project>{58EBE359-A2C1-4CB8-93BA-145AE4AFEB58}</Project>
       <Name>Etisst.Desktop.DataAccess</Name>

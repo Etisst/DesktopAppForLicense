@@ -10,7 +10,9 @@ namespace Etisst.Desktop.BussinessLogic.Core
         public async Task<List<Product>> GetAllProductsAsync()
         {
             ProductDAL pDAL = new ProductDAL();
-            return await pDAL.GetAllProductsAsync();
+            Dictionary<string, string> dic = new Dictionary<string, string>();
+            dic.Add("per_page", "100");
+            return await pDAL.GetAllProductsAsync(dic);
         }
 
         public async Task DeleteProductByIdAsync(int? id)

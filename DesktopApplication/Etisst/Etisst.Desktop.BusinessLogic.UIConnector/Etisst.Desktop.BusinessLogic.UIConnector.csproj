@@ -52,17 +52,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Presenters\CustomerDetailsPresenter.cs" />
+    <Compile Include="Presenters\CustomerListPresenter.cs" />
+    <Compile Include="Presenters\CustomerReportsPresenter.cs" />
+    <Compile Include="Presenters\OrderDetailsPresenter.cs" />
+    <Compile Include="Presenters\OrderListPresenter.cs" />
+    <Compile Include="Presenters\OrderReportsPresenter.cs" />
     <Compile Include="Presenters\ProductCategoriesPresenter.cs" />
     <Compile Include="Presenters\ProductCategoryDetailsPresenter.cs" />
     <Compile Include="Presenters\ProductDetailsPresenter.cs" />
     <Compile Include="Presenters\ProductListPresenter.cs" />
+    <Compile Include="Presenters\ProductTagDetailsPresenter.cs" />
+    <Compile Include="Presenters\ProductTagsPresenter.cs" />
     <Compile Include="Presenters\StartFormPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewInterfaces\ICustomerDetailsView.cs" />
+    <Compile Include="ViewInterfaces\ICustomerListView.cs" />
+    <Compile Include="ViewInterfaces\ICustomerReportsView.cs" />
+    <Compile Include="ViewInterfaces\IOrderDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IOrderListView.cs" />
+    <Compile Include="ViewInterfaces\IOrderReportsView.cs" />
     <Compile Include="ViewInterfaces\IProductCategoriesView.cs" />
     <Compile Include="ViewInterfaces\IProductCategoryDetailsView.cs" />
     <Compile Include="ViewInterfaces\IProductDetailsView.cs" />
     <Compile Include="ViewInterfaces\IProductListView.cs" />
+    <Compile Include="ViewInterfaces\IProductTagDetailsView.cs" />
+    <Compile Include="ViewInterfaces\IProductTagsView.cs" />
     <Compile Include="ViewInterfaces\IStartFormView.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

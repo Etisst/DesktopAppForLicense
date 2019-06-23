@@ -1,7 +1,5 @@
 ﻿using Etisst.Desktop.BussinessLogic.Core;
 using Etisst.Desktop.Common;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WooCommerceNET.WooCommerce.v3;
 

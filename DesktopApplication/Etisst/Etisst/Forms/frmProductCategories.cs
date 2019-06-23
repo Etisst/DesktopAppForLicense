@@ -12,7 +12,6 @@ namespace Etisst
         #region private members
         private ProductCategoriesPresenter _presenter;
         private ProductCategory _selectedProductCategory;
-        private List<ProductCategory> _productCategories;
         #endregion
 
         #region Constructor

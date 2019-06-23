@@ -802,7 +802,7 @@
             this.panelAttributes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelAttributes.Location = new System.Drawing.Point(27, 241);
             this.panelAttributes.Name = "panelAttributes";
-            this.panelAttributes.Size = new System.Drawing.Size(1589, 623);
+            this.panelAttributes.Size = new System.Drawing.Size(1589, 35);
             this.panelAttributes.TabIndex = 4;
             // 
             // frmProductDetails

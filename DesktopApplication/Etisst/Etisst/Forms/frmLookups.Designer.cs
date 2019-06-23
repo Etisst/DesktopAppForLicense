@@ -32,6 +32,7 @@
             this.gbActions = new System.Windows.Forms.GroupBox();
             this.btnView = new System.Windows.Forms.Button();
             this.btnCategories = new System.Windows.Forms.Button();
+            this.btnTags = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.gbActions.SuspendLayout();
             this.SuspendLayout();
@@ -90,17 +91,30 @@
             this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategories.Location = new System.Drawing.Point(27, 154);
             this.btnCategories.Name = "btnCategories";
-            this.btnCategories.Size = new System.Drawing.Size(1013, 34);
+            this.btnCategories.Size = new System.Drawing.Size(1013, 40);
             this.btnCategories.TabIndex = 2;
             this.btnCategories.Text = "Categories";
             this.btnCategories.UseVisualStyleBackColor = true;
             this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
+            // 
+            // btnTags
+            // 
+            this.btnTags.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTags.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTags.Location = new System.Drawing.Point(27, 194);
+            this.btnTags.Name = "btnTags";
+            this.btnTags.Size = new System.Drawing.Size(1013, 40);
+            this.btnTags.TabIndex = 3;
+            this.btnTags.Text = "Tags";
+            this.btnTags.UseVisualStyleBackColor = true;
+            this.btnTags.Click += new System.EventHandler(this.btnTags_Click);
             // 
             // frmLookups
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnTags);
             this.Controls.Add(this.btnCategories);
             this.Controls.Add(this.panelMenu);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -111,7 +125,6 @@
             this.Text = "Lookups";
             this.TransparencyKey = System.Drawing.Color.Empty;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmLookups_Load);
             this.panelMenu.ResumeLayout(false);
             this.gbActions.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -124,5 +137,6 @@
         private System.Windows.Forms.GroupBox gbActions;
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.Button btnCategories;
+        private System.Windows.Forms.Button btnTags;
     }
 }

@@ -124,10 +124,17 @@ namespace Etisst
             childForm.AttachPresenter(presenter);
             childForm.MdiParent = this.ParentForm;
             childForm.Product = SelectedProduct;
-            var categories = _products.Select(p => p.categories).Distinct().ToList();
-            //childForm.ProductCategories = categories;
             ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
-            this.Close();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            frmProductDetails childForm = new frmProductDetails();
+            ProductDetailsPresenter presenter = new ProductDetailsPresenter(childForm);
+            childForm.AttachPresenter(presenter);
+            childForm.MdiParent = this.ParentForm;
+            childForm.Product = new Product();
+            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
         private void btnView_Click(object sender, EventArgs e)
@@ -141,7 +148,6 @@ namespace Etisst
                 childForm.Product = SelectedProduct;
 
                 ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
-                this.Close();
             }
             else
             {

@@ -76,12 +76,12 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gridProducts.DefaultCellStyle = dataGridViewCellStyle2;
-            this.gridProducts.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridProducts.Dock = System.Windows.Forms.DockStyle.Top;
             this.gridProducts.EnableHeadersVisualStyles = false;
             this.gridProducts.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.gridProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.gridProducts.Location = new System.Drawing.Point(0, 0);
-            this.gridProducts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gridProducts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 200);
             this.gridProducts.Name = "gridProducts";
             this.gridProducts.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -101,16 +101,15 @@
             // 
             // metroPanel2
             // 
-            this.metroPanel2.Controls.Add(this.LoadingGIF);
             this.metroPanel2.Controls.Add(this.gridProducts);
             this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroPanel2.HorizontalScrollbarBarColor = true;
             this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel2.HorizontalScrollbarSize = 12;
             this.metroPanel2.Location = new System.Drawing.Point(27, 234);
-            this.metroPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 200);
             this.metroPanel2.Name = "metroPanel2";
-            this.metroPanel2.Size = new System.Drawing.Size(1013, 295);
+            this.metroPanel2.Size = new System.Drawing.Size(1013, 195);
             this.metroPanel2.TabIndex = 14;
             this.metroPanel2.VerticalScrollbarBarColor = true;
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
@@ -120,10 +119,10 @@
             // 
             this.LoadingGIF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LoadingGIF.Image = ((System.Drawing.Image)(resources.GetObject("LoadingGIF.Image")));
-            this.LoadingGIF.Location = new System.Drawing.Point(0, 0);
-            this.LoadingGIF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoadingGIF.Location = new System.Drawing.Point(27, 234);
+            this.LoadingGIF.Margin = new System.Windows.Forms.Padding(4);
             this.LoadingGIF.Name = "LoadingGIF";
-            this.LoadingGIF.Size = new System.Drawing.Size(1013, 295);
+            this.LoadingGIF.Size = new System.Drawing.Size(1013, 195);
             this.LoadingGIF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.LoadingGIF.TabIndex = 12;
             this.LoadingGIF.TabStop = false;
@@ -135,7 +134,7 @@
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 12;
             this.metroPanel1.Location = new System.Drawing.Point(0, 123);
-            this.metroPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.metroPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(1013, 37);
             this.metroPanel1.TabIndex = 1;
@@ -153,7 +152,7 @@
             this.panelMenu.HorizontalScrollbarHighlightOnWheel = false;
             this.panelMenu.HorizontalScrollbarSize = 12;
             this.panelMenu.Location = new System.Drawing.Point(27, 74);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(1013, 160);
             this.panelMenu.TabIndex = 13;
@@ -167,9 +166,9 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox1.Location = new System.Drawing.Point(320, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(140, 123);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
@@ -185,7 +184,7 @@
             this.btnRefresh.Image = global::Etisst.Properties.Resources.Refresh;
             this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnRefresh.Location = new System.Drawing.Point(8, 23);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(127, 92);
             this.btnRefresh.TabIndex = 3;
@@ -202,9 +201,9 @@
             this.gbActions.Dock = System.Windows.Forms.DockStyle.Left;
             this.gbActions.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.gbActions.Location = new System.Drawing.Point(0, 0);
-            this.gbActions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbActions.Margin = new System.Windows.Forms.Padding(4);
             this.gbActions.Name = "gbActions";
-            this.gbActions.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbActions.Padding = new System.Windows.Forms.Padding(4);
             this.gbActions.Size = new System.Drawing.Size(320, 123);
             this.gbActions.TabIndex = 3;
             this.gbActions.TabStop = false;
@@ -220,7 +219,7 @@
             this.btnView.Image = global::Etisst.Properties.Resources.UpdateEntity;
             this.btnView.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnView.Location = new System.Drawing.Point(143, 68);
-            this.btnView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnView.Margin = new System.Windows.Forms.Padding(4);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(151, 47);
             this.btnView.TabIndex = 5;
@@ -239,7 +238,7 @@
             this.btnDelete.Image = global::Etisst.Properties.Resources.DeleteEntity;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDelete.Location = new System.Drawing.Point(143, 14);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(151, 47);
             this.btnDelete.TabIndex = 4;
@@ -258,24 +257,26 @@
             this.btnAdd.Image = global::Etisst.Properties.Resources.AddEntity;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAdd.Location = new System.Drawing.Point(8, 23);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(127, 92);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // frmProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.LoadingGIF);
             this.Controls.Add(this.metroPanel2);
             this.Controls.Add(this.panelMenu);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmProducts";
-            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 125);
             this.Text = "Products list";
             this.Load += new System.EventHandler(this.frmProducts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridProducts)).EndInit();

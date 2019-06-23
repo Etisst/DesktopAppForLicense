@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Etisst.Desktop.Common
 {
     public class Enums
     {
-
+        public enum OrderStatus
+        {
+            Void = 0,
+            processing = 1,
+            cancelled = 2,
+            completed = 3
+        }
     }
 }

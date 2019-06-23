@@ -411,7 +411,6 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\De
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.DataAccess.exe.config
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmConnect.resources
-C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomer.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProducts.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductDetails.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.dll
@@ -419,3 +418,10 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\De
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.xml
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategories.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategoryDetails.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductTagDetails.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductTags.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomers.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomerDetails.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomerReports.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderDetails.resources
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderReports.resources

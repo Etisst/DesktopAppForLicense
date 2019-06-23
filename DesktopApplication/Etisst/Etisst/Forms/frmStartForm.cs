@@ -35,9 +35,6 @@ namespace Etisst
         {
             this.mpMainMenu.AutoSize = false;
             frmLookups childForm = new frmLookups();
-            // childForm.Parent = this;
-            //ProductListPresenter presenter = new ProductListPresenter(childForm);
-            //childForm.AttachPresenter(presenter);
             childForm.MdiParent = this;
             ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
@@ -45,7 +42,11 @@ namespace Etisst
         private void mtCustomers_Click(object sender, EventArgs e)
         {
             this.mpMainMenu.AutoSize = false;
-            ShowChildForm(sender, new ShowTabFormEventArgs(new frmCustomer()));
+            frmCustomers childForm = new frmCustomers();
+            CustomerListPresenter presenter = new CustomerListPresenter(childForm);
+            childForm.AttachPresenter(presenter);
+            childForm.MdiParent = this;
+            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
         private void mtProducts_Click(object sender, EventArgs e)
@@ -62,7 +63,11 @@ namespace Etisst
         private void mtOrders_Click(object sender, EventArgs e)
         {
             this.mpMainMenu.AutoSize = false;
-            ShowChildForm(sender, new ShowTabFormEventArgs(new frmOrders()));
+            frmOrders childForm = new frmOrders();
+            OrderListPresenter presenter = new OrderListPresenter(childForm);
+            childForm.AttachPresenter(presenter);
+            childForm.MdiParent = this;
+            ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
 
         private void frmStartForm_FormClosed(object sender, FormClosedEventArgs e)

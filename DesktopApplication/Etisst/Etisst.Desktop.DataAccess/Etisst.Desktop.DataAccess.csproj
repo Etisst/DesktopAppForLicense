@@ -52,10 +52,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerDAL.cs" />
+    <Compile Include="OrderDAL.cs" />
     <Compile Include="ProductCategoriesDAL.cs" />
     <Compile Include="ProductDAL.cs" />
+    <Compile Include="ProductTagsDAL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportsDAL.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -43,7 +43,27 @@ namespace Etisst
                 }
             }
         }
-        
+
+        public List<ProductTag> ProductTags
+        {
+            set
+            {
+                if (value != null)
+                {
+                    foreach (ProductTag productTag in value)
+                    {
+                        cblTags.Items.Add((object)productTag.name);
+                    }
+
+                    foreach (ProductTagLine categoryTag in _product.tags)
+                    {
+                        var index = cblTags.Items.IndexOf((object)categoryTag.name);
+                        cblTags.SetItemChecked(index, true);
+                    }
+                }
+            }
+        }
+
         private Product _product;
         public Product Product
         {
@@ -86,6 +106,9 @@ namespace Etisst
                 initialPrice[0] = initialPrice[0].Substring(0, initialPrice[0].IndexOf('&'));
                 initialPrice[0] = initialPrice[0].Replace(',', '.');
                 nInitialPrice.Value = decimal.Parse(initialPrice[0]);
+                mtbShippingClass.Text = _product.shipping_class;
+                mtbDimensions.Text = string.Format("{0} x {1} x {2}", _product.dimensions.height, _product.dimensions.width, _product.dimensions.width);
+
                
             }
         }
@@ -119,12 +142,12 @@ namespace Etisst
         #endregion
 
         #region Private Methods
-        private bool SetHeight(ref System.Windows.Forms.Panel panel)
+        private bool SetHeight(ref System.Windows.Forms.Panel panel, int height=500)
         {
             if (panel.Height == btnGeneralPanel.Height)
             {
                 InitializePanelsHeight();
-                while (panel.Height < 500)
+                while (panel.Height < height)
                 {
                     panel.Height += 4;
                 }

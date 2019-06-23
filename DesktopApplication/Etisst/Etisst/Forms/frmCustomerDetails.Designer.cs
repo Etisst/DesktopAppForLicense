@@ -1,6 +1,6 @@
 ﻿namespace Etisst
 {
-    partial class frmCustomer
+    partial class frmCustomerDetails
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,18 @@
         {
             this.SuspendLayout();
             // 
-            // frmCustomer
+            // frmCustomerDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmCustomer";
-            this.Text = "frmCustomer";
-            this.Load += new System.EventHandler(this.frmCustomer_Load);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Movable = false;
+            this.Name = "frmCustomerDetails";
+            this.Resizable = false;
+            this.Text = "Customer details";
+            this.Load += new System.EventHandler(this.frmCustomerDetails_Load);
             this.ResumeLayout(false);
 
         }
