@@ -5,7 +5,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
 {
     public interface IOrderListView
     {
-        List<Order> Orders { set; }
+        List<Order> Orders { get; set; }
         Order SelectedOrder { get; }
         void AttachPresenter(OrderListPresenter presenter);
     }

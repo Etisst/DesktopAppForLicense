@@ -28,5 +28,10 @@ namespace Etisst.Desktop.DataAccess
         {
             await _wc.Order.Update(id,order);
         }
+
+        public async Task<List<Report>> GerOrderReport()
+        {
+            return await _wc.Report.GetAll();
+        }
     }
 }

@@ -36,5 +36,10 @@ namespace Etisst.Desktop.BussinessLogic.Core
             int actualId = id ?? default(int);
             await oDAL.UpdateOrderAsync(actualId, orderUpdated);
         }
+        public async Task<List<Report>> GetOrderReport()
+        {
+            OrderDAL oDAL = new OrderDAL();
+            return await oDAL.GerOrderReport();
+        }
     }
 }

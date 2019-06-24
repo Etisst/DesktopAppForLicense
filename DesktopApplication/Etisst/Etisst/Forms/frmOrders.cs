@@ -72,6 +72,7 @@ namespace Etisst
                 LoadingGIF.Visible = false;
                 gridOrders.Visible = true;
             }
+            get { return _orders; }
         }
 
         public void AttachPresenter(OrderListPresenter presenter)
@@ -126,7 +127,7 @@ namespace Etisst
             OrderReportsPresenter presenter = new OrderReportsPresenter(childForm);
             childForm.AttachPresenter(presenter);
             childForm.MdiParent = this.ParentForm;
-            //childForm.Order = SelectedOrder;
+            childForm.Orders = this.Orders ;
             ShowChildForm(sender, new ShowTabFormEventArgs(childForm));
         }
         #endregion

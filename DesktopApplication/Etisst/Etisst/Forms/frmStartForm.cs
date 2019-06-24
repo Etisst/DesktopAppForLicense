@@ -33,6 +33,7 @@ namespace Etisst
 
         private void mtLookups_Click(object sender, EventArgs e)
         {
+            CloseAllChilderForm();
             this.mpMainMenu.AutoSize = false;
             frmLookups childForm = new frmLookups();
             childForm.MdiParent = this;
@@ -41,6 +42,7 @@ namespace Etisst
 
         private void mtCustomers_Click(object sender, EventArgs e)
         {
+            CloseAllChilderForm();
             this.mpMainMenu.AutoSize = false;
             frmCustomers childForm = new frmCustomers();
             CustomerListPresenter presenter = new CustomerListPresenter(childForm);
@@ -51,6 +53,7 @@ namespace Etisst
 
         private void mtProducts_Click(object sender, EventArgs e)
         {
+            CloseAllChilderForm();
             this.mpMainMenu.AutoSize = false;
             frmProducts childForm = new frmProducts();
             // childForm.Parent = this;
@@ -62,6 +65,7 @@ namespace Etisst
 
         private void mtOrders_Click(object sender, EventArgs e)
         {
+            CloseAllChilderForm();
             this.mpMainMenu.AutoSize = false;
             frmOrders childForm = new frmOrders();
             OrderListPresenter presenter = new OrderListPresenter(childForm);
@@ -75,7 +79,16 @@ namespace Etisst
             Application.Exit();
         }
         #endregion
-
+        #region Private method
+        private void CloseAllChilderForm()
+        {
+            foreach(Form frm in this.MdiChildren)
+            {
+                frm.Dispose();
+                frm.Close();
+            }
+        }
+        #endregion
 
     }
 }
