@@ -22,6 +22,8 @@ namespace Etisst
         public List<Customer> Customers { get; set; }
         public List<Order> Orders { get; set; }
         public List<Product> Products { get; set; }
+        public DateTime DateTimeFrom { get; set; }
+        public DateTime DateTimeUntil { get; set; }
         public void AttachPresenter(OrderReportsPresenter presenter)
         {
             _presenter = presenter;
@@ -47,6 +49,8 @@ namespace Etisst
             {
                 cbChartModel.Items.Add(item);
             }
+            DateTimeFrom = dtpFrom.Value;
+            DateTimeUntil = dtpUntil.Value;
         }
         private void clbSeries_ItemCheck(object sender, System.Windows.Forms.ItemCheckEventArgs e)
         {
@@ -89,9 +93,26 @@ namespace Etisst
                 series.ChartType = result;
             }
         }
+        private void dtpFrom_ValueChanged(object sender, EventArgs e)
+        {
+            Chart.Series.Clear();
+            DateTimeFrom = dtpFrom.Value;
+            foreach (string itemChecked in clbSeries.CheckedItems)
+            {
+                AddSeries(itemChecked);
+            }
+        }
+
+        private void dtpUntil_ValueChanged(object sender, EventArgs e)
+        {
+            Chart.Series.Clear();
+            DateTimeUntil = dtpUntil.Value;
+            foreach (string itemChecked in clbSeries.CheckedItems)
+            {
+                AddSeries(itemChecked);
+            }
+        }
         #endregion
-
-
         #region Private methods
         private void AddSeries(string itemChecked)
         {

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.LineAnnotation lineAnnotation1 = new System.Windows.Forms.DataVisualization.Charting.LineAnnotation();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.LineAnnotation lineAnnotation2 = new System.Windows.Forms.DataVisualization.Charting.LineAnnotation();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.cbReports = new System.Windows.Forms.ComboBox();
             this.cbChartModel = new System.Windows.Forms.ComboBox();
             this.dtpFrom = new System.Windows.Forms.DateTimePicker();
@@ -57,38 +57,40 @@
             this.cbReports.Items.AddRange(new object[] {
             "Orders",
             "Others"});
-            this.cbReports.Location = new System.Drawing.Point(124, 39);
-            this.cbReports.Margin = new System.Windows.Forms.Padding(2);
+            this.cbReports.Location = new System.Drawing.Point(165, 48);
+            this.cbReports.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbReports.Name = "cbReports";
-            this.cbReports.Size = new System.Drawing.Size(199, 21);
+            this.cbReports.Size = new System.Drawing.Size(264, 24);
             this.cbReports.TabIndex = 0;
             this.cbReports.SelectedIndexChanged += new System.EventHandler(this.cbReports_SelectedIndexChanged);
             // 
             // cbChartModel
             // 
             this.cbChartModel.FormattingEnabled = true;
-            this.cbChartModel.Location = new System.Drawing.Point(124, 71);
-            this.cbChartModel.Margin = new System.Windows.Forms.Padding(2);
+            this.cbChartModel.Location = new System.Drawing.Point(165, 87);
+            this.cbChartModel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbChartModel.Name = "cbChartModel";
-            this.cbChartModel.Size = new System.Drawing.Size(199, 21);
+            this.cbChartModel.Size = new System.Drawing.Size(264, 24);
             this.cbChartModel.TabIndex = 5;
             this.cbChartModel.SelectedIndexChanged += new System.EventHandler(this.cbChartModel_SelectedIndexChanged);
             // 
             // dtpFrom
             // 
-            this.dtpFrom.Location = new System.Drawing.Point(124, 104);
-            this.dtpFrom.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpFrom.Location = new System.Drawing.Point(165, 128);
+            this.dtpFrom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFrom.Name = "dtpFrom";
-            this.dtpFrom.Size = new System.Drawing.Size(199, 20);
+            this.dtpFrom.Size = new System.Drawing.Size(264, 22);
             this.dtpFrom.TabIndex = 6;
+            this.dtpFrom.ValueChanged += new System.EventHandler(this.dtpFrom_ValueChanged);
             // 
             // dtpUntil
             // 
-            this.dtpUntil.Location = new System.Drawing.Point(124, 138);
-            this.dtpUntil.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpUntil.Location = new System.Drawing.Point(165, 170);
+            this.dtpUntil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpUntil.Name = "dtpUntil";
-            this.dtpUntil.Size = new System.Drawing.Size(199, 20);
+            this.dtpUntil.Size = new System.Drawing.Size(264, 22);
             this.dtpUntil.TabIndex = 7;
+            this.dtpUntil.ValueChanged += new System.EventHandler(this.dtpUntil_ValueChanged);
             // 
             // panelGeneral
             // 
@@ -105,30 +107,29 @@
             this.panelGeneral.Controls.Add(this.btnGeneralPanel);
             this.panelGeneral.Controls.Add(this.cbReports);
             this.panelGeneral.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelGeneral.Location = new System.Drawing.Point(15, 60);
-            this.panelGeneral.Margin = new System.Windows.Forms.Padding(2);
+            this.panelGeneral.Location = new System.Drawing.Point(20, 74);
+            this.panelGeneral.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelGeneral.Name = "panelGeneral";
-            this.panelGeneral.Size = new System.Drawing.Size(1818, 315);
+            this.panelGeneral.Size = new System.Drawing.Size(1902, 388);
             this.panelGeneral.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 175);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(21, 215);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 18);
+            this.label1.Size = new System.Drawing.Size(75, 24);
             this.label1.TabIndex = 22;
             this.label1.Text = "Series:";
             // 
             // clbSeries
             // 
             this.clbSeries.FormattingEnabled = true;
-            this.clbSeries.Location = new System.Drawing.Point(124, 175);
-            this.clbSeries.Margin = new System.Windows.Forms.Padding(2);
+            this.clbSeries.Location = new System.Drawing.Point(165, 215);
+            this.clbSeries.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clbSeries.Name = "clbSeries";
-            this.clbSeries.Size = new System.Drawing.Size(199, 109);
+            this.clbSeries.Size = new System.Drawing.Size(264, 123);
             this.clbSeries.TabIndex = 21;
             this.clbSeries.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbSeries_ItemCheck);
             // 
@@ -136,10 +137,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 138);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(21, 170);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 18);
+            this.label6.Size = new System.Drawing.Size(57, 24);
             this.label6.TabIndex = 20;
             this.label6.Text = "Until:";
             // 
@@ -147,10 +147,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(16, 104);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(21, 128);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 18);
+            this.label8.Size = new System.Drawing.Size(65, 24);
             this.label8.TabIndex = 11;
             this.label8.Text = "From:";
             // 
@@ -158,10 +157,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(16, 70);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(21, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 18);
+            this.label4.Size = new System.Drawing.Size(110, 24);
             this.label4.TabIndex = 5;
             this.label4.Text = "Chart type:";
             // 
@@ -169,10 +167,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(16, 39);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(21, 48);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 18);
+            this.label5.Size = new System.Drawing.Size(78, 24);
             this.label5.TabIndex = 4;
             this.label5.Text = "Report:";
             // 
@@ -187,9 +184,9 @@
             this.btnGeneralPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGeneralPanel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnGeneralPanel.Location = new System.Drawing.Point(0, 0);
-            this.btnGeneralPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGeneralPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGeneralPanel.Name = "btnGeneralPanel";
-            this.btnGeneralPanel.Size = new System.Drawing.Size(1818, 28);
+            this.btnGeneralPanel.Size = new System.Drawing.Size(1902, 34);
             this.btnGeneralPanel.TabIndex = 3;
             this.btnGeneralPanel.Text = "General panel";
             this.btnGeneralPanel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -201,28 +198,28 @@
             this.panel1.Controls.Add(this.Chart);
             this.panel1.Controls.Add(this.btnReportPanel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(15, 375);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(20, 462);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1818, 315);
+            this.panel1.Size = new System.Drawing.Size(1902, 388);
             this.panel1.TabIndex = 5;
             // 
             // Chart
             // 
-            lineAnnotation1.Name = "LineAnnotation1";
-            this.Chart.Annotations.Add(lineAnnotation1);
-            chartArea1.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
-            chartArea1.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea1.Name = "ChartArea1";
-            this.Chart.ChartAreas.Add(chartArea1);
+            lineAnnotation2.Name = "LineAnnotation1";
+            this.Chart.Annotations.Add(lineAnnotation2);
+            chartArea2.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
+            chartArea2.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea2.Name = "ChartArea1";
+            this.Chart.ChartAreas.Add(chartArea2);
             this.Chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.Chart.Legends.Add(legend1);
-            this.Chart.Location = new System.Drawing.Point(0, 28);
-            this.Chart.Margin = new System.Windows.Forms.Padding(2);
+            legend2.Name = "Legend1";
+            this.Chart.Legends.Add(legend2);
+            this.Chart.Location = new System.Drawing.Point(0, 34);
+            this.Chart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Chart.Name = "Chart";
-            this.Chart.Padding = new System.Windows.Forms.Padding(15, 16, 15, 16);
-            this.Chart.Size = new System.Drawing.Size(1818, 287);
+            this.Chart.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.Chart.Size = new System.Drawing.Size(1902, 354);
             this.Chart.TabIndex = 4;
             this.Chart.Text = "Chart";
             // 
@@ -237,9 +234,9 @@
             this.btnReportPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportPanel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnReportPanel.Location = new System.Drawing.Point(0, 0);
-            this.btnReportPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReportPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReportPanel.Name = "btnReportPanel";
-            this.btnReportPanel.Size = new System.Drawing.Size(1818, 28);
+            this.btnReportPanel.Size = new System.Drawing.Size(1902, 34);
             this.btnReportPanel.TabIndex = 3;
             this.btnReportPanel.Text = "Report panel";
             this.btnReportPanel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -247,17 +244,17 @@
             // 
             // frmOrderReports
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1848, 891);
+            this.ClientSize = new System.Drawing.Size(1942, 1097);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelGeneral);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Movable = false;
             this.Name = "frmOrderReports";
-            this.Padding = new System.Windows.Forms.Padding(15, 60, 15, 16);
+            this.Padding = new System.Windows.Forms.Padding(20, 74, 20, 20);
             this.Resizable = false;
             this.Text = "Order reports";
             this.Load += new System.EventHandler(this.frmOrderReports_Load);

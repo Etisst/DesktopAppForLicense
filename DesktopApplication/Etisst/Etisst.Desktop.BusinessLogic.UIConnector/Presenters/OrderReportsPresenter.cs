@@ -26,7 +26,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
 
         public void AddProductNameReport()
         {
-            var line_items = _view.Orders.Where(o => o.status != Enums.OrderStatus.cancelled.ToString()).Select(o => o.line_items).ToList();
+            var line_items = _view.Orders.Where(o => o.date_created < _view.DateTimeUntil && o.date_created > _view.DateTimeFrom && o.status != Enums.OrderStatus.cancelled.ToString()).Select(o => o.line_items).ToList();
             Dictionary<int?, decimal?> nodes = new Dictionary<int?, decimal?>();
             foreach (WooCommerceNET.WooCommerce.v3.Product product in _view.Products)
             {
@@ -58,7 +58,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
             }
             nodes.Add(0, 0);
 
-            foreach (Order order in _view.Orders)
+            foreach (Order order in _view.Orders.Where(o => o.date_created < _view.DateTimeUntil && o.date_created > _view.DateTimeFrom))
             {
                     nodes[order.customer_id] ++;
             }
@@ -77,7 +77,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
         public void AddOrderStatusReport()
         {
             Dictionary<string, decimal?> nodes = new Dictionary<string, decimal?>();
-            foreach (WooCommerceNET.WooCommerce.v3.Order order in _view.Orders)
+            foreach (WooCommerceNET.WooCommerce.v3.Order order in _view.Orders.Where(o => o.date_created < _view.DateTimeUntil && o.date_created > _view.DateTimeFrom))
             {
                 if (!nodes.ContainsKey(order.status))
                 {
