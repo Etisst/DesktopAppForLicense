@@ -117,13 +117,17 @@ namespace Etisst
         {
             _presenter.InitAsync();
         }
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void btnConfirm_Click(object sender, EventArgs e)
         {
             _presenter.ConfirmOrderAsync();
+            this.Parent.Refresh();
+            this.Close();
         }
         private void btnReject_Click(object sender, EventArgs e)
         {
             _presenter.RejectOrderAsync();
+            this.Parent.Refresh();
+            this.Close();
         }
         #endregion
         #region Private Methods

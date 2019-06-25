@@ -5,6 +5,7 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
 {
     public interface IOrderReportsView
     {
+        List<Customer> Customers { get; set; }
         List<Product> Products { get; set; }
         List<Order> Orders { get; set; }
         void AttachPresenter(OrderReportsPresenter presenter);

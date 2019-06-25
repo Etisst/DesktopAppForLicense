@@ -383,7 +383,6 @@ C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etis
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\DevExpress.Images.v17.2.dll
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrders.resources
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmConnect.resources
-C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomer.resources
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.BussinessLogic.Core.exe
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.Common.exe
 C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\Etisst.Desktop.DataAccess.exe
@@ -425,3 +424,15 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\De
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomerReports.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderDetails.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderReports.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.dll
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\bin\Debug\HtmlAgilityPack.xml
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomerDetails.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomerReports.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmCustomers.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderDetails.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmOrderReports.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategories.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductCategoryDetails.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductTagDetails.resources
+C:\Users\a.i.craciun\Desktop\Etisst\DesktopAppForLicense\DesktopApplication\Etisst\Etisst\obj\Debug\Etisst.frmProductTags.resources
