@@ -258,7 +258,7 @@
             this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel3.VerticalScrollbarSize = 13;
             // 
-            // frmProductCategoryDetails
+            // frmProductTagDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -269,9 +269,9 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Movable = false;
-            this.Name = "frmProductCategoryDetails";
+            this.Name = "frmProductTagDetails";
             this.Resizable = false;
-            this.Text = "Product category details";
+            this.Text = "Product tag details";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelGeneral.ResumeLayout(false);
             this.panelGeneral.PerformLayout();

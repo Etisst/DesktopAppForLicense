@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Etisst.frmBaseForm" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmBaseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.frmConnect" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCCAAABAAAACAACACAAAAAEBAAAACAAAAAAA=</HashCode>
+      <FileName>Forms\frmConnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.frmCustomerDetails" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAACAAAAAAAACAAAACAAAAABAACAAEAAAAAAA=</HashCode>
+      <FileName>Forms\frmCustomerDetails.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmCustomerReports" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmCustomerReports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmCustomers" Collapsed="true">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEIAAAAACAQDABAAACAAgQCAIAAAEAIGCEEAAAAAAA=</HashCode>
+      <FileName>Forms\frmCustomers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmLookups" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAABAAACAAAACAIAAAEAAIAAAAAAAAwA=</HashCode>
+      <FileName>Forms\frmLookups.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.frmOrderDetails" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wWY0AaiAScwAhkABvKACMCCBMWgSAACCAQEkAhbArc=</HashCode>
+      <FileName>Forms\frmOrderDetails.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmOrderReports" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACUBAAEAASQQgBAAoAiAAAACAAQAAACCCAAEEwAAACQ=</HashCode>
+      <FileName>Forms\frmOrderReports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmOrders" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEIAIAAACEQDABAIADAAgACAJAABAAICiEEAAQABAA=</HashCode>
+      <FileName>Forms\frmOrders.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProductCategories" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIIAIAAACAQjAJAAHCAAgECBIAAgAAICCAMABAAAAY=</HashCode>
+      <FileName>Forms\frmProductCategories.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProductCategoryDetails" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAACQAABIAIgCAAgAiAIAAgAAACAAGAAAAGAI=</HashCode>
+      <FileName>Forms\frmProductCategoryDetails.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProductDetails" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+wQCgREAASQgIREIABCAAAICAAQADgAkqIIECABwCBQ=</HashCode>
+      <FileName>Forms\frmProductDetails.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProducts" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQIIAIABAGAQjABAAACAAgACCIIAAAAICKAEAAAAAAY=</HashCode>
+      <FileName>Forms\frmProducts.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProductTagDetails" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAgAACQAABMAIACAggAiAIAAgAAACAAEAAAACAI=</HashCode>
+      <FileName>Forms\frmProductTagDetails.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmProductTags" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAIAAACAQjAJAAAKARgACAJAAgAAIKCAEACAAAAY=</HashCode>
+      <FileName>Forms\frmProductTags.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.frmStartForm" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAQAABCIAAAGCAAAAAACACQcQABBACA=</HashCode>
+      <FileName>Forms\frmStartForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Etisst.Program" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Properties.Resources" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAAAAAAQFEAAAAQCAAAAAwIAAAAAABIg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Properties.Settings" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

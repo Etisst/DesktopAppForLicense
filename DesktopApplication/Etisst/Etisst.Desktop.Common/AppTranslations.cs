@@ -1,8 +1,6 @@
 ﻿
 namespace Etisst.Desktop.Common
 {
-   // [System.Runtime.InteropServices.GuidAttribute("76DF2981-3387-429E-8AD2-BEBFB4C79132")]
-
     public class AppTranslations
     {
         public const string MUST_SELECT_PRODUCT = "You need to select the product first!";
@@ -20,5 +18,7 @@ namespace Etisst.Desktop.Common
 
         public const string PRODUCT_SHORT_DESCRIPTION = "<h2>Short description:</h2>";
         public const string PRODUCT_DESCRIPTION = "<h2>Description:</h2>";
+
+        public const string CONNECT = "/wp-json/wc/v3/";
     }
 }

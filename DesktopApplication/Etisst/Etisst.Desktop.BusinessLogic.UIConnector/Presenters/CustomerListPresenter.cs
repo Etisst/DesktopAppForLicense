@@ -15,7 +15,9 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
             CustomerBLL customerBLL = new CustomerBLL();
             _view.Customers = await customerBLL.GetAllCustomersAsync();
         }
+#pragma warning disable CS1998 // This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
         public async Task DeleteProductAsync(int? id)
+#pragma warning restore CS1998 // This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
         {
             //OrderBLL orderBLL = new OrderBLL();
             //await orderBLL.DeleteProductByIdAsync(id);

@@ -7,12 +7,16 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
 {
     public class ProductTagDetailsPresenter
     {
+        #region Private members
         private IProductTagDetailsView _view;
+        #endregion
+        #region Constructor
         public ProductTagDetailsPresenter(IProductTagDetailsView view)
         {
             this._view = view;
         }
-
+        #endregion
+        #region Methods
         public async void Save(ProductTag productTag)
         {
             if (Validate(productTag))
@@ -29,7 +33,6 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
                 }
             }
         }
-
         private bool Validate(ProductTag productTag)
         {
             if (productTag.name == null || string.IsNullOrEmpty(productTag.name))
@@ -39,5 +42,6 @@ namespace Etisst.Desktop.BusinessLogic.UIConnector
             }
             return true;
         }
+        #endregion
     }
 }

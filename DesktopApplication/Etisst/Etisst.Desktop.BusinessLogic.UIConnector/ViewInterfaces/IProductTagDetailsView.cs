@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using WooCommerceNET.WooCommerce.v3;
+﻿using WooCommerceNET.WooCommerce.v3;
 
 namespace Etisst.Desktop.BusinessLogic.UIConnector
 {

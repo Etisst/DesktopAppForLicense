@@ -38,18 +38,12 @@
             this.panelMenu = new MetroFramework.Controls.MetroPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnRefresh = new System.Windows.Forms.Button();
-            this.gbActions = new System.Windows.Forms.GroupBox();
-            this.btnView = new System.Windows.Forms.Button();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnReport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingGIF)).BeginInit();
             this.metroPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridCustomers)).BeginInit();
             this.panelMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.gbActions.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // LoadingGIF
@@ -128,9 +122,7 @@
             // 
             // panelMenu
             // 
-            this.panelMenu.Controls.Add(this.groupBox2);
             this.panelMenu.Controls.Add(this.groupBox1);
-            this.panelMenu.Controls.Add(this.gbActions);
             this.panelMenu.Controls.Add(this.metroPanel1);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMenu.HorizontalScrollbarBarColor = true;
@@ -150,7 +142,7 @@
             this.groupBox1.Controls.Add(this.btnRefresh);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.groupBox1.Location = new System.Drawing.Point(164, 0);
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -178,38 +170,6 @@
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
-            // gbActions
-            // 
-            this.gbActions.Controls.Add(this.btnView);
-            this.gbActions.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gbActions.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.gbActions.Location = new System.Drawing.Point(0, 0);
-            this.gbActions.Margin = new System.Windows.Forms.Padding(4);
-            this.gbActions.Name = "gbActions";
-            this.gbActions.Padding = new System.Windows.Forms.Padding(4);
-            this.gbActions.Size = new System.Drawing.Size(164, 123);
-            this.gbActions.TabIndex = 3;
-            this.gbActions.TabStop = false;
-            this.gbActions.Text = "Actions";
-            // 
-            // btnView
-            // 
-            this.btnView.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnView.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnView.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnView.Image = global::Etisst.Properties.Resources.UpdateEntity;
-            this.btnView.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnView.Location = new System.Drawing.Point(4, 23);
-            this.btnView.Margin = new System.Windows.Forms.Padding(4);
-            this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(142, 92);
-            this.btnView.TabIndex = 5;
-            this.btnView.Text = "View";
-            this.btnView.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnView.UseVisualStyleBackColor = true;
-            // 
             // metroPanel1
             // 
             this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -225,38 +185,6 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 13;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnReport);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.groupBox2.Location = new System.Drawing.Point(304, 0);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(140, 123);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Reports";
-            // 
-            // btnReport
-            // 
-            this.btnReport.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnReport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnReport.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReport.Image = global::Etisst.Properties.Resources.Report;
-            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReport.Location = new System.Drawing.Point(8, 23);
-            this.btnReport.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Size = new System.Drawing.Size(127, 92);
-            this.btnReport.TabIndex = 3;
-            this.btnReport.Text = "Report";
-            this.btnReport.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReport.UseVisualStyleBackColor = true;
-            // 
             // frmCustomers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -270,15 +198,13 @@
             this.Movable = false;
             this.Name = "frmCustomers";
             this.Resizable = false;
-            this.Text = "frmCustomers";
+            this.Text = "Customers list";
             this.Load += new System.EventHandler(this.frmCustomers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LoadingGIF)).EndInit();
             this.metroPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridCustomers)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            this.gbActions.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -291,10 +217,6 @@
         private MetroFramework.Controls.MetroPanel panelMenu;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnRefresh;
-        private System.Windows.Forms.GroupBox gbActions;
-        private System.Windows.Forms.Button btnView;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btnReport;
     }
 }

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.CustomerDetailsPresenter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presenters\CustomerDetailsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.CustomerListPresenter" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\CustomerListPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.CustomerReportsPresenter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presenters\CustomerReportsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.OrderDetailsPresenter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAABCAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\OrderDetailsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.OrderListPresenter" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\OrderListPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.OrderReportsPresenter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAACAAACAAAAIAAAA=</HashCode>
+      <FileName>Presenters\OrderReportsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductCategoriesPresenter" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductCategoriesPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductCategoryDetailsPresenter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductCategoryDetailsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductDetailsPresenter" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductDetailsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductListPresenter" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductListPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductTagDetailsPresenter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductTagDetailsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.ProductTagsPresenter" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\ProductTagsPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.StartFormPresenter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Presenters\StartFormPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.Program" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Etisst.Desktop.BusinessLogic.UIConnector.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.ICustomerDetailsView" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\ICustomerDetailsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.ICustomerListView" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\ICustomerListView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.ICustomerReportsView" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\ICustomerReportsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IOrderDetailsView" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAA=</HashCode>
+      <FileName>ViewInterfaces\IOrderDetailsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IOrderListView" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IOrderListView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IOrderReportsView">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAACQ=</HashCode>
+      <FileName>ViewInterfaces\IOrderReportsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductCategoriesView" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IProductCategoriesView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductCategoryDetailsView" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAEAA=</HashCode>
+      <FileName>ViewInterfaces\IProductCategoryDetailsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductDetailsView" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IProductDetailsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductListView" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>ViewInterfaces\IProductListView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductTagDetailsView" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IProductTagDetailsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IProductTagsView" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IProductTagsView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Etisst.Desktop.BusinessLogic.UIConnector.IStartFormView" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ViewInterfaces\IStartFormView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

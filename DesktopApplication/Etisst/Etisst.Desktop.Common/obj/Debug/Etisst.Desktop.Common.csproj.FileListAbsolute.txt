@@ -210,7 +210,6 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Deskto
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\WooCommerce.NET.dll
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csprojAssemblyReference.cache
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.exe.config
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.Properties.Resources.resources
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csproj.GenerateResource.cache
@@ -218,3 +217,4 @@ C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Deskto
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csproj.CopyComplete
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.exe
 C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.pdb
+C:\Users\Craciun\Desktop\Proiect Licenta\DesktopApplication\Etisst\Etisst.Desktop.Common\obj\Debug\Etisst.Desktop.Common.csprojAssemblyReference.cache

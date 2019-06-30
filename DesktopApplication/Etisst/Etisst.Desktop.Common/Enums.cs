@@ -8,7 +8,9 @@ namespace Etisst.Desktop.Common
             Void = 0,
             processing = 1,
             cancelled = 2,
-            completed = 3
+            completed = 3,
+            pending = 4,
+            on_hold = 5
         }
     }
 }

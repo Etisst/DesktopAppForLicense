@@ -69,7 +69,7 @@ namespace Etisst
         {
             get
             {
-                return _product;
+                    return _product;
             }
             set
             {
@@ -120,6 +120,7 @@ namespace Etisst
         #endregion
 
         #region Events
+
         private void btnGeneralPanel_Click(object sender, EventArgs e)
         {
             this.SetHeight(ref panelGeneral);
@@ -132,12 +133,16 @@ namespace Etisst
 
         private void btnAttributesPanel_Click(object sender, EventArgs e)
         {
-            this.SetHeight(ref panelAttributes);
+            this.SetHeight(ref panelAttributes,400);
         }
 
         private async void frmProductDetails_LoadAsync(object sender, EventArgs e)
         {
             await _presenter.InitAsync();
+        }
+        private void mtbURL_LinkClicked(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(mtbURL.Text);
         }
         #endregion
 
@@ -167,5 +172,6 @@ namespace Etisst
         }
 
         #endregion
+
     }
 }

@@ -1776,7 +1776,9 @@
         private MetroFramework.Controls.MetroTextBox mtbTotalTax;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvProducts;
+#pragma warning disable CS0108 // 'frmOrderDetails.ProductName' hides inherited member 'Control.ProductName'. Use the new keyword if hiding was intended.
         private System.Windows.Forms.DataGridViewTextBoxColumn ProductName;
+#pragma warning restore CS0108 // 'frmOrderDetails.ProductName' hides inherited member 'Control.ProductName'. Use the new keyword if hiding was intended.
         private System.Windows.Forms.DataGridViewTextBoxColumn SKU;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tax;
